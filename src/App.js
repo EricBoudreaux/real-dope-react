@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+
+import Home from './pages/Home'
+
+
+import Navbar from './components/Navbar'
+import RecentPayments from './components/RecentPayments'
+
+import Copyright from './components/Copyright'
+
+
+import 'animate.css';
+import MoneyShop from './pages/MoneyShop';
+import LootBoxShop from './pages/LootBoxShop';
+import VehicleShop from './pages/VehicleShop';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/money' element={<MoneyShop />} />
+        <Route path='/lootboxes' element={<LootBoxShop />} />
+        <Route path='/vehicles' element={<VehicleShop />} />
+      </Routes> 
+      <RecentPayments />
+
+      <Copyright />
     </div>
   );
 }
