@@ -41,7 +41,7 @@
            @apply font-['Nunito'] text-[18px] text-[#1E1E1E] font-medium
         }
         a {
-           @apply font-['Roboto'] text-[16px]  font-semibold
+           @apply font-['Nunito'] text-[18px] text-[#850000] font-bold not-italic
         }
         em {
             @apply font-['Nunito'] text-[18px] text-[#850000] font-bold not-italic

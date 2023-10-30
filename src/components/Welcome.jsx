@@ -4,13 +4,18 @@ import { SiCashapp, SiPaypal } from 'react-icons/si'
 
 const Welcome = () => {
   return (
-    <div className='lg:pt-16 my-8 px-6 lg:ps-12 lg:pe-32'>
+    <div className='lg:pt-16 pt-12 my-8 px-6 lg:ps-12 lg:pe-32'>
       <h1 className='text-6xl'>Welcome!</h1>
 
         <p className='my-10'>
             This is the store for the <em>RealDopeRP</em> server!
             All items are <strong>non-refundable</strong>, and you 
             must be online to receive your items. 
+    
+
+        </p>
+        <p className='my-5'>
+        Buying items is currently not available on this site. You must visit our <a href='https://discord.gg/xPuw7W4S' target='_blank'>Discord</a> to make any purchases!
         </p>
         <h1>Payment Methods</h1>
         <p className='my-10'>
@@ -31,8 +36,7 @@ const Welcome = () => {
         <p className='my-10'>
             Your items don’t come automatically,
             you must crate a donation ticket in 
-            our Discord. To join our Discord click
-            this highlighted message. Please
+            our <a href='https://discord.gg/xPuw7W4S' target='_blank'>Discord</a>. Please
             allow time for your items to come to
             you, you must be in game and ready
             to verify your purchase to our Senior

@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <div className='bg-[var(--light-gray)] m-4 lg:m-12 animate__animated animate__fadeInUp'>
       {/* Components go here */}
-      <CartBar />
+      {/* <CartBar /> */}
       <Welcome />
     </div>
   )

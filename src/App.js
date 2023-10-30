@@ -25,7 +25,7 @@ function App() {
         <Route path='/lootboxes' element={<LootBoxShop />} />
         <Route path='/vehicles' element={<VehicleShop />} />
       </Routes> 
-      <RecentPayments />
+      {/* <RecentPayments /> */}
 
       <Copyright />
     </div>

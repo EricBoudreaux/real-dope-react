@@ -15,7 +15,7 @@ const StoreItem = ({ pic, name, price }) => {
             <h2>{name}</h2>
             <h3>{price}</h3>
         </div>
-        <button className='bg-[#D9D9D9] hover:bg-[var(--red)] duration-300 ease-in-out py-4 text-white w-full'>ADD TO BASKET</button>
+        {/* <button className='bg-[#D9D9D9] hover:bg-[var(--red)] duration-300 ease-in-out py-4 text-white w-full'>ADD TO BASKET</button> */}
     </div>
   )
 }

@@ -2,8 +2,8 @@ import React from 'react'
 import CartBar from '../components/CartBar'
 import StoreItem from '../components/StoreItem'
 
-import Car1 from '../assets/Car_1.png'
-import Car2 from '../assets/Car_2.png'
+import one_40 from '../assets/one_one_40.png'
+import dono_25 from '../assets/dono_25.png'
 
 const VehicleShop = () => {
   return (
@@ -12,9 +12,9 @@ const VehicleShop = () => {
       <div className='p-6'>
         <h5>Vehicles</h5>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-12'>
-            <StoreItem pic={Car1} name={'Dono Vehicle'} price={'20.00 USD'}/>
-            <StoreItem pic={Car2} name={'1/1 Vehicle'} price={'25.00 USD'}/>
-            <StoreItem pic={Car1} name={'Dono Vehicle'} price={'20.00 USD'}/>
+            <StoreItem pic={one_40} name={'1/1'} price={'40.00 USD'}/>
+            <StoreItem pic={dono_25} name={'Dono'} price={'25.00 USD'}/>
+
 
 
         </div>
