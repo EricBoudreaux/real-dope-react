@@ -17,17 +17,17 @@ const [nav, setNav] = useState(true)
 
 
   return (
-    <div className='bg-[var(--red)] py-2  z-50'>
+    <div className='bg-[var(--red)] py-2  z-40'>
 
 
       <div className='flex justify-between items-center px-6 lg:px-12 h-28'>
         <div className='text-white'>
           <img className='h-[100px] lg:hidden' src={Logo} alt="logo" />
         </div>
-        <div className='flex items-center lg:w-full lg:justify-between gap-6'>
-          <div className='bg-white rounded-sm h-[60px] w-[60px] flex justify-center items-center hover:bg-black hover:text-white duration-200 cursor-pointer relative group'>
+        <div className='flex items-center lg:w-full lg:justify-between gap-6 '>
+          <div className='bg-white rounded-sm h-[60px] w-[60px] flex justify-center items-center hover:bg-black hover:text-white duration-200 cursor-pointer relative group z-50'>
             <a href='https://discord.gg/xPuw7W4S' target='_blank'><FaDiscord size={40} /></a>
-            <p className='h-0 opacity-0 group-hover:opacity-100 group-hover:h-12 group-hover:flex absolute top-3 lg:top-3 font-bold uppercase lg:text-3xl lg:w-screen right-[-25px] group-hover:right-16 lg:left-[-25px] lg:group-hover:left-16 duration-200 ease-in-out lg:font-["Roboto"] text-white leading-[20px]'>Join our discord!</p>
+            {/* <p className='h-0 opacity-0 group-hover:opacity-100 group-hover:h-12 group-hover:flex absolute top-3 lg:top-3 font-bold uppercase lg:text-3xl lg:w-screen right-[-25px] group-hover:right-16 lg:left-[-25px] lg:group-hover:left-16 duration-200 ease-in-out lg:font-["Roboto"] text-white leading-[20px] z-50'>Join our discord!</p> */}
           </div>
           <div className=''>
             {nav 
